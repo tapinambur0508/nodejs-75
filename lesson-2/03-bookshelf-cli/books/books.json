@@ -1,0 +1,72 @@
+[
+  {
+    "id": "u9kgwNWGi3uUUwh0b8V49",
+    "title": "Eloquent JavaScript, Third Edition",
+    "author": "Marijn Haverbeke"
+  },
+  {
+    "id": "YxhM4QDxPeA3SmPHcEZPJ",
+    "title": "Practical Modern JavaScript",
+    "author": "Nicolas Bevacqua"
+  },
+  {
+    "id": "zCd_RioNMOBaQwAXnc8Px",
+    "title": "Understanding ECMAScript 6",
+    "author": "Nicholas C. Zakas"
+  },
+  {
+    "id": "ck89qe3HriUDHe09TBoJ8",
+    "title": "Speaking JavaScript",
+    "author": "Axel Rauschmayer"
+  },
+  {
+    "id": "e1Tpn_I3wBkLREY6wG0lb",
+    "title": "Learning JavaScript Design Patterns",
+    "author": "Addy Osmani"
+  },
+  {
+    "id": "Op8ApLTY0-Vn2cR0vDIwG",
+    "title": "You Don't Know JS Yet",
+    "author": "Kyle Simpson"
+  },
+  {
+    "id": "dkJSszfrRVtLVR_MfRqcu",
+    "title": "Pro Git",
+    "author": "Scott Chacon and Ben Straub"
+  },
+  {
+    "title": "Title",
+    "author": "Author",
+    "id": "bbf9b4d9-a835-4703-86da-4a7d7f5d620d"
+  },
+  {
+    "title": "Title",
+    "author": "Author",
+    "id": "08f7e277-2649-45f3-ae53-22d249958e17"
+  },
+  {
+    "title": "Title",
+    "author": "Author",
+    "id": "c685d458-8170-4ded-b576-69a9cc74619d"
+  },
+  {
+    "title": "Title",
+    "author": "Author",
+    "id": "bd065aed-64cb-4ec3-83dc-189ad33d043f"
+  },
+  {
+    "title": "Title",
+    "author": "Author",
+    "id": "7f88d7aa-d25e-4490-bae0-a2345233496d"
+  },
+  {
+    "title": "Title",
+    "author": "Author 2",
+    "id": "78514943-ac84-42bd-b715-754e838f135f"
+  },
+  {
+    "title": "Title",
+    "author": "Author",
+    "id": "20008354-40ea-46fb-916f-cadb119c1bdf"
+  }
+]
