@@ -1,0 +1,17 @@
+{
+  "name": "04-mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lottery.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^29.5.4",
+    "jest": "^29.6.4"
+  }
+}
