@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body style="background-color: antiquewhite;">
+  <form id="chat">
+    <div>
+      <input type="text" name="name" id="name" placeholder="Your name:" />
+    </div>
+    <div>
+      <input type="text" name="message" id="message" placeholder="Your message:" />
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+
+  <div id="messages"></div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io("https://429d-91-240-140-25.ngrok-free.app");
+
+    const chatElement = document.getElementById("chat");
+    const messagesElement = document.getElementById("messages");
+
+    chatElement.addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      const name = event.target.name.value.trim();
+      const message = event.target.message.value.trim();
+
+      if (name === "" || message === "") {
+        return;
+      }
+
+      socket.emit("chatMessage", JSON.stringify({ name, message }));
+    });
+
+    function writeLine(text) {
+      const line = document.createElement("div");
+      line.innerHTML = `<p>${text}</p>`;
+      messagesElement.appendChild(line)
+    }
+
+    socket.on("chatMessage", message => {
+      writeLine(message);
+    })
+  </script>
+</body>
+
+</html>
